@@ -17,75 +17,7 @@
     "password": {
       "type": "string",
       "required": true
-    },
-    "last_name": {
-      "type": "string"
-    },
-    "organisation": {
-      "type": "string"
-    },
-    "first_name": {
-      "type": "string"
-    },
-    "profile": {
-      "phone": {
-      "type": "string"
-    },
-      "country": {
-        "type": "string"
-      },
-      "approx_of_users": {
-        "type": "string"
-      }
-    },
-    "resetPassword": {
-      "type": "Boolean"
-    },
-    "active"              : { "type": "Boolean", "default":true },
-    "admin"               : { "type": "Boolean", "default":false },
-    "trial"               : { "type": "Boolean", "default":true },
-    "type"                : { "type": "String", "default": "web" },
-    "source"              : { "type": "String", "default": "web" },
-    "status"              : { "type": "String", "default": "free" },
-    "membership"          : { "type": "String", "default": 0 },
-    "owner_id"            : { "type": "String", "trim": true },
-    "organisation"        : { "type": "String", "trim": true },
-    "licences"            : { "type": "Number", "default": 0 },
-    "available_licences"  : { "type": "Number", "default": 0 },
-    "stripe_account"      : { "type": "String" },
-    "logo"                : { "type": "String" },
-    "attributes"          : {},
-    "shared_forms"        : { "type": "Array" },
-    "licence"             : {
-                            "type": { "type": "String", "default": "free" },
-                            "assigned_by_id": { "type": "String", "trim": true }
-                          },
-    "salesforce"          :{  
-                          "id":  { "type": "String"},
-                          "refresh_token":  { "type": "String"},
-                          "connected_app_mobile":  { "type": "Boolean" },
-                          "signature":  { "type": "String"},
-                          "issued_at":  { "type": "String"},
-                          "access_token":  { "type": "String"},
-                          "scope":  { "type": "String"},
-                          "instance_url":    { "type": "String"},
-                          "organisation_id":    { "type": "String"}
-                        },
-    "geo"                 :{
-                          "id":  { "type": "String"},
-                          "country_code": { "type": "String", "trim": true },
-                          "country_name": { "type": "String", "trim": true },
-                          "region_code": { "type": "String", "trim": true },
-                          "region_name": { "type": "String", "trim": true },
-                          "city": { "type": "String", "trim": true },
-                          "zipcode": { "type": "String", "trim": true },
-                          "latitude": { "type": "String", "trim": true },
-                          "longitude": { "type": "String", "trim": true },
-                          "metro_code": { "type": "String", "trim": true },
-                          "area_code": { "type": "String", "trim": true },
-                          "street_number": { "type": "String", "trim": true },
-                          "street_name": { "type": "String", "trim": true }
-                        }
+    }
   },
   "validations": [],
   "relations": {},
